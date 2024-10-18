@@ -1,0 +1,28 @@
+{
+  "name": "Hidden Information [By]-ERROR",
+  "version": "1.0.1",
+  "description": "Web Extension to identifies Hidden Information's instances",
+  "manifest_version": 3,
+    
+  "permissions": ["activeTab", "tabs", "scripting"],
+  "host_permissions": ["https://www.developer.chrome.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+  {
+    "matches": ["<all_urls>"],
+    "js": ["utils/bootstrap/js/jquery-3.7.0.js" , "content.js"]
+  }
+  ],
+  "action": {
+    "default_icon": {                
+      "16": "images/icon16.png",  
+      "32": "images/icon32.png",
+	    "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_popup": "main.html",
+    "default_title": "DP Identifier - Hidden Information"
+  }
+}
