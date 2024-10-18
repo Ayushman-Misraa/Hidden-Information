@@ -1,13 +1,18 @@
 # Hidden-Information
-# **ABOUT**
 
-Hidden Information is a chrome extension that analyze WebPage DOM to detect deceptive designs (Dark Pattern). Specifically this extension can detect Bait and Switch.
+## ABOUT
 
-
+**Hidden Information** is a Chrome extension designed to analyze webpage Document Object Model (DOM) elements for the presence of deceptive designs known as Dark Patterns. This extension helps users identify manipulative tactics that can mislead them into making unintended choices or purchases.
 
 ## WHAT ARE DARK PATTERNS?
 
-Dark patterns are design tricks used to influence the way users interact with software. While some dark patterns are harmless, like emphasizing signup buttons with color, others can be more malicious in problematic. In the context of online stores, dark patterns can be used to nudge buyers into buying items they might not need.
+Dark patterns are deceptive design strategies used to manipulate user behavior and influence how they interact with software. While some dark patterns may be innocuous—such as highlighting sign-up buttons to draw attention—others can be significantly more problematic. In online shopping contexts, dark patterns can push users toward purchasing items they don’t need or want, ultimately leading to a frustrating user experience.
+
+## FEATURES
+
+- Analyzes webpage DOM for potential dark patterns.
+- Provides insights to help users navigate online environments more safely.
+
 
 
 ## INSTALLATION:
